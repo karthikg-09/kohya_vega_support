@@ -365,5 +365,5 @@ def verify_sdxl_training_args(args: argparse.Namespace, supportTextEncoderCachin
             )
 
 
-def sample_images(*args, **kwargs):
-    return train_util.sample_images_common(SdxlStableDiffusionLongPromptWeightingPipeline, *args, **kwargs)
+# def sample_images(*args, **kwargs):
+#     return train_util.sample_images_common(SdxlStableDiffusionLongPromptWeightingPipeline, *args, **kwargs)
